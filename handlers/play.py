@@ -457,12 +457,12 @@ async def play(_, message: Message):
                 [
                                
                     InlineKeyboardButton("ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
-                    InlineKeyboardButton("ᴏᴡɴᴇʀ", callback_data="menu")
+                    InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/knsgnwn")
                 
                 ],                     
                 [
-                    InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"{durl}"),
-                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", callback_data="cls")
+                    InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"https://t.me/instagramindonesia1"),
+                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/rakasupport")
                 
                 ]                             
             ]
