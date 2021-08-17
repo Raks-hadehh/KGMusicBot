@@ -32,27 +32,28 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>┗┓ Hi {message.from_user.first_name} My Name is [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ┏┛\n
-Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
-Saya Memiliki Banyak Fitur Praktis Seperti:
+        f"""<b>┗┓ ʜᴀɪ!! {message.from_user.first_name} sᴀʏᴀ ᴀᴅᴀʟᴀʜ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ┏┛\n
+sᴀʏᴀ ᴀᴅᴀʟᴀʜ ᴍᴜsɪᴄ ʙᴏᴛ ʏᴀɴɢ sᴀɴɢᴀᴛ ᴄᴀɴɢɢɪʜ,sᴀʏᴀ ᴀᴋᴀɴ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇʀɪᴀʜᴋᴀɴ ɢʀᴏᴜᴘ ᴀɴᴅᴀ.
+sᴀʏᴀ ᴍᴇᴍᴘᴜɴʏᴀɪ ғɪᴛᴜʀ ᴘʀᴀᴋᴛɪs sᴇᴘᴇʀᴛɪ:
 ┏━━━━━━━━━━━━━━
-┣• Memutar Musik.
-┣• Mendownload Lagu.
-┣• Mencari Lagu Yang ingin di Putar atau di Download.
+┣• ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴄ.
+┣• ᴍᴇɴᴅᴏᴡɴʟᴏᴀᴅ ʟᴀɢᴜ.
+┣• ᴍᴇɴᴄᴀʀɪ ʟᴀɢᴜ ʏᴀɴɢ ɪɴɢɪɴ ᴅɪᴘᴜᴛᴀʀ ᴀᴛᴀᴜ ᴅɪᴅᴏᴡɴʟᴏᴀᴅ.
 ┗━━━━━━━━━━━━━━
-Ketik » /help « Untuk Melihat Daftar Perintah!
+ᴋᴇᴛɪᴋ » /help « ᴀᴛᴀᴜ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ](https://t.me/rakasupport) ᴊɪᴋᴀ ᴛɪᴅᴀᴋ ᴘᴀʜᴀᴍ!
+ᴛʜᴀɴᴋs ᴛᴏ 🤖[owner](https://t.me/knsgnwn)
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Tambahkan Ke Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴋᴇ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                         "🤖 Assistant", url=f"https://t.me/{ASSISTANT_NAME}"
+                         "ᴀssɪsᴛᴇɴᴛ", url=f"https://t.me/{ASSISTANT_NAME}"
                     ),
                     InlineKeyboardButton(
-                        "🛠 Repo", url="https://github.com/tofikdn/TDMusicBot"
+                        "ʀᴇᴘᴏ", url="https://github.com/rakaanjay/KGMusicBot"
                     )
                 ]
             ]
@@ -72,10 +73,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Repo", url="https://github.com/tofikdn/TDMusicBot"
+                        "ʀᴇᴘᴏ", url="https://github.com/rakaanjay/KGMusicBot"
                     ),
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/tedesupport"
+                        "ɢʀᴏᴜᴘ", url="https://t.me/instagramindonesia1"
                     )
                 ]
             ]
@@ -102,15 +103,16 @@ async def help(client: Client, message: Message):
 /end - Untuk Memberhentikan pemutaran Lagu
 /userbotjoin - Untuk Mengundang asisten ke obrolan Anda
 /reload - Untuk Merefresh admin list
+ᴛʜᴀɴᴋs ᴛᴏ 🤖[owner](https://t.me/knsgnwn)
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Group", url="https://t.me/tedesupport"
+                        "ɢʀᴏᴜᴘ", url="https://t.me/sinihadehh"
                     ),
                     InlineKeyboardButton(
-                        "Tede", url="https://t.me/tdtapibot"
+                        "ᴄʜᴀɴɴᴇʟ", url="https://t.me/rakasupport"
                     )
                 ]
             ]
