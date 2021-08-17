@@ -1,0 +1,61 @@
+{
+    "name": "TDMusicBot",
+    "logo": "https://telegra.ph/file/7ffa8d18b9b7f1b51a81e.jpg",
+    "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+    "keywords": ["music", "voicechat", "telegram"],
+    "repository": "https://github.com/tofikdn/TDMusicBot",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "Masukan String Session Pyrogram (P) untuk assistant yang naik ke VCG",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Masukan Bot Token dari @BotFather",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Username bot Anda tanpa @",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "Nama Bot MusicPlayer Anda.",
+            "required": true,
+            "value": ""
+        },
+        "ASSISTANT_NAME": {
+            "description": "Username Telegram asisten MusicPlayer Anda tanpa @",
+            "required": true
+        },    
+        "BG_IMAGE": {
+            "description": "Custom Background Play Musik Gunakan Foto yang Transparant format .png / .jpg",
+            "required": false,
+            "value": " https://telegra.ph/file/f9c4f6fe3ee7dbef047f7.png"
+        },
+        "API_ID": {
+            "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "Daftar User ID Telegram pengguna dihitung sebagai admin di semua tempat (pemisah menggunakan space)",
+            "required": true
+        },
+        "DURATION_LIMIT": {
+            "description": "Batas durasi audio maksimal untuk download (minutes)",
+            "required": false,
+            "value": "60"
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
