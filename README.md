@@ -8,7 +8,7 @@ Kallian Belum Paham?Bisa Liat [support Channel](https://t.me/rakasupport) Agar P
 
 # Deploy
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rakaanjay/KGMusicBot)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Raks-hadehh/KGMusicBot)
 
 # string
 ## Silakan Pilih P Untuk Music Bot
