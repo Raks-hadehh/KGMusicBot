@@ -456,13 +456,13 @@ async def play(_, message: Message):
             [   
                 [
                                
-                    InlineKeyboardButton("📖 Daftar Putar", callback_data="playlist"),
-                    InlineKeyboardButton("⏯ Menu", callback_data="menu")
+                    InlineKeyboardButton("ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
+                    InlineKeyboardButton("ᴏᴡɴᴇʀ", callback_data="menu")
                 
                 ],                     
                 [
-                    InlineKeyboardButton("📥 Download", url=f"{durl}"),
-                    InlineKeyboardButton("🗑 Tutup", callback_data="cls")
+                    InlineKeyboardButton("ɢʀᴏᴜᴘ", url=f"{durl}"),
+                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", callback_data="cls")
                 
                 ]                             
             ]
